@@ -16,9 +16,7 @@ const NAV_LINKS = [
   { href: "#projects", label: "Projects" },
   { href: "#writing", label: "Writing" },
   { href: "#now", label: "Now" },
-  { href: "#reads", label: "Reads" },
-  { href: "#uses", label: "Uses" },
-  { href: "#travel", label: "Travel" },
+  
   { href: "#contact", label: "Contact" },
 ];
 
@@ -91,55 +89,7 @@ const POSTS = [
   },
 ];
 
-const READS = {
-  current: [
-    { title: "Kafka on the Shore", author: "Haruki Murakami" },
-  ],
-  recent: [
-    { title: "Norwegian Wood", author: "Haruki Murakami" },
-  ],
-  wishlist: [
-    { title: "Clear Thinking" , author: "Shane Parrish" },
-  ],
-};
-
-const USES = [
-  { group: "Hardware", items: [
-    "Mac (Apple Silicon)",
-    "iPhone 14 Pro",
-    "Logitech MX Master 3",
-  ]},
-  { group: "Audio & Media", items: [
-    "Apple Music",
-  ]},
-  { group: "Fonts", items: [
-    "Berkeley Mono (local install for editor)",
-  ]},
-  { group: "Dev", items: [
-    "Python, TensorFlow",
-    "VS Code / Cursor",
-    "Git, P4 when needed",
-  ]},
-];
-
-const TRAVEL = [
-  {
-    place: "Meghalaya",
-    note: "for lush valleys, rain, calm.",
-  },
-  {
-    place: "Big Sur",
-    note: "fav quick coastal reset; bring layers.",
-  },
-  {
-    place: "Yosemite",
-    note: "spring and shoulder seasons shine.",
-  },
-  {
-    place: "Tokyo (someday)",
-    note: "drawn to craft, quiet, and detail.",
-  },
-];
+// Removed Reads, Uses, and Travel sections and their data.
 
 export default function Site() {
   const [theme, setTheme] = useState("light");
@@ -355,64 +305,8 @@ export default function Site() {
           </div>
         </section>
 
-        {/* Reads */}
-        <section id="reads" className="mx-auto max-w-6xl px-4 py-10 border-t border-black/5 dark:border-white/5">
-          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Reading</h2>
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
-              <h3 className="font-semibold">Current</h3>
-              <ul className="mt-2 space-y-2 text-sm">
-                {READS.current.map((b) => (
-                  <li key={b.title}><span className="font-medium">{b.title}</span> — {b.author}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
-              <h3 className="font-semibold">Recent</h3>
-              <ul className="mt-2 space-y-2 text-sm">
-                {READS.recent.map((b) => (
-                  <li key={b.title}><span className="font-medium">{b.title}</span> — {b.author}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
-              <h3 className="font-semibold">Wishlist</h3>
-              <ul className="mt-2 space-y-2 text-sm">
-                {READS.wishlist.map((b) => (
-                  <li key={b.title}><span className="font-medium">{b.title}</span> — {b.author}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
+        
 
-        {/* Uses */}
-        <section id="uses" className="mx-auto max-w-6xl px-4 py-10 border-t border-black/5 dark:border-white/5">
-          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Uses</h2>
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-            {USES.map((group) => (
-              <div key={group.group} className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
-                <h3 className="font-semibold">{group.group}</h3>
-                <ul className="mt-2 list-disc list-inside text-sm">
-                  {group.items.map((it) => <li key={it}>{it}</li>)}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Travel */}
-        <section id="travel" className="mx-auto max-w-6xl px-4 py-10 border-t border-black/5 dark:border-white/5">
-          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Travel</h2>
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-6">
-            {TRAVEL.map((t) => (
-              <div key={t.place} className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
-                <h3 className="font-semibold">{t.place}</h3>
-                <p className="mt-2 text-sm text-slate-700 dark:text-zinc-300">{t.note}</p>
-              </div>
-            ))}
-          </div>
-        </section>
 
         {/* About */}
         <section id="about" className="mx-auto max-w-6xl px-4 py-10 border-t border-black/5 dark:border-white/5">

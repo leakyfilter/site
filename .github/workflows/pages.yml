@@ -31,6 +31,9 @@ jobs:
         run: |
           npx esbuild main.jsx \
             --bundle \
+            --platform=browser \
+            --format=iife \
+            --define:process.env.NODE_ENV='"production"' \
             --minify \
             --sourcemap \
             --outfile=dist/bundle.js \
@@ -57,4 +60,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
