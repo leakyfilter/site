@@ -130,7 +130,7 @@ export default function Site() {
         <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-zinc-950/60 border-b border-black/5 dark:border-white/5">
           <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
             <a href="#home" className="font-mono text-sm tracking-tight select-none" style={{fontFamily: 'Berkeley Mono, ui-monospace, SFMono-Regular, Menlo, monospace'}}>
-              mohit.dev
+              leaky.dev
             </a>
             <nav aria-label="Primary" className="hidden md:flex items-center gap-6 text-sm">
               {NAV_LINKS.map((n) => (
