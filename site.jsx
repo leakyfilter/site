@@ -92,7 +92,7 @@ const POSTS = [
 // Removed Reads, Uses, and Travel sections and their data.
 
 export default function Site() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [query, setQuery] = useState("");
   const [activeTag, setActiveTag] = useState("All");
 
