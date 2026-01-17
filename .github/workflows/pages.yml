@@ -25,7 +25,11 @@ jobs:
 
       - name: Install deps (runtime + build)
         run: |
-          npm i react react-dom framer-motion esbuild
+          npm i react react-dom framer-motion esbuild gray-matter
+
+      - name: Build content from Markdown
+        run: |
+          npm run build:content
 
       - name: Build bundle with esbuild
         run: |

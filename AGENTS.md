@@ -1,18 +1,16 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-- Source: `site.jsx` in the repository root is the primary entry point.
+- Source: `main.jsx` is the entry point that renders the React app from `site.jsx`.
+- Content: See `CONTENT.md` for how to add/edit projects, posts, and pages using Markdown.
 - Add new modules as colocated files (e.g., `components/Widget.jsx`) and import from `site.jsx`.
 - Keep assets in `assets/` (e.g., images, fonts) and reference them via relative paths.
 
 ## Build, Test, and Development Commands
-This repository does not ship a build setup by default. Use a lightweight bundler locally.
-- Build (example with esbuild):
-  - `npx esbuild site.jsx --bundle --outfile=dist/bundle.js --format=iife --sourcemap`
-- Serve locally (any static server):
-  - `npx http-server dist` or `npx serve dist`
-- Watch mode (example):
-  - `npx esbuild site.jsx --bundle --outfile=dist/bundle.js --format=iife --sourcemap --watch`
+- Build: `npm run build` (converts Markdown content, then bundles with esbuild)
+- Build content only: `npm run build:content`
+- Serve locally: `npx serve dist`
+- Watch mode: `npm run dev`
 
 ## Coding Style & Naming Conventions
 - Indentation: 2 spaces; UTF-8; LF line endings.

@@ -1,95 +1,14 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-
-// ------------------------------------------------------------
-// Mohit – Personal Website (single‑file React)
-// - TailwindCSS for styling (no external UI kit required)
-// - Minimal, clean aesthetic with grid-based layout
-// - Search + tag filters across Projects & Writing
-// - Light/Dark toggle, responsive, accessible
-// - Monospace stack prefers local "Berkeley Mono" if installed
-//   (If you later purchase a web license, add a @font-face)
-// ------------------------------------------------------------
+import { PROJECTS, POSTS, ABOUT, NOW } from "./data.js";
 
 const NAV_LINKS = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
   { href: "#writing", label: "Writing" },
   { href: "#now", label: "Now" },
-  
   { href: "#contact", label: "Contact" },
 ];
-
-const PROJECTS = [
-  {
-    title: "Local Research Assistant (Offline)",
-    period: "2024 → present",
-    tags: ["LLMs", "Retrieval", "On‑device"],
-    blurb:
-      "Designing an offline, privacy‑first research assistant for macOS that indexes PDFs, notes, and papers; query planning + semantic search running locally.",
-    links: [
-      { href: "#", label: "Write‑up (soon)" },
-    ],
-  },
-  {
-    title: "CPU/SoC Power Model",
-    period: "2025",
-    tags: ["ML", "Regression", "Energy"],
-    blurb:
-      "Built and validated a telemetry‑driven model for CPU power across operating points; emphasized monotonic constraints, min/max and spectral normalization variants.",
-    links: [
-      { href: "#", label: "Notes" },
-    ],
-  },
-  {
-    title: "Context Window Triage for Editors",
-    period: "2025",
-    tags: ["Tooling", "Cursor", "Productivity"],
-    blurb:
-      "Heuristics to summarize active buffers, shrink tokens, and preserve intent so LLM copilots stay useful in long sessions.",
-    links: [
-      { href: "#", label: "Gist" },
-    ],
-  },
-  {
-    title: "Audio Quality Deep‑Dive",
-    period: "2024",
-    tags: ["Audio", "Apple Music", "Codecs"],
-    blurb:
-      "Compared AAC vs ALAC on Apple devices; looked at Bluetooth transport, device DSP, and perceptual thresholds.",
-    links: [
-      { href: "#", label: "Summary" },
-    ],
-  },
-];
-
-const POSTS = [
-  {
-    title: "Spectral Norm, Lipschitz Hints, and Stable Training",
-    date: "Aug 2025",
-    tags: ["Deep Learning", "Regularization"],
-    excerpt:
-      "A quick tour of spectral normalization trade‑offs for small MLPs used in systems modeling.",
-    href: "#",
-  },
-  {
-    title: "Reasoning Effort Knobs in LLMs: What Actually Changes?",
-    date: "Aug 2025",
-    tags: ["LLMs", "Inference"],
-    excerpt:
-      "Notes on how reasoning‑effort settings interact with planning depth, sampling, and verifier passes.",
-    href: "#",
-  },
-  {
-    title: "Notes on Big Sur → Yosemite Weekenders",
-    date: "Jul 2025",
-    tags: ["Travel", "California"],
-    excerpt: "Packing lists, fuel/time math, and favorite overlooks.",
-    href: "#",
-  },
-];
-
-// Removed Reads, Uses, and Travel sections and their data.
 
 export default function Site() {
   const [theme, setTheme] = useState("dark");
@@ -289,20 +208,22 @@ export default function Site() {
         {/* Now */}
         <section id="now" className="mx-auto max-w-6xl px-4 py-10 border-t border-black/5 dark:border-white/5">
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Now</h2>
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
-              <h3 className="font-semibold">Work</h3>
-              <p className="mt-2 text-sm text-slate-700 dark:text-zinc-300">Training small MLPs for telemetry → perf/power. Exploring verifier‑aided reasoning settings in LLMs. Tooling for editor context hygiene.</p>
+          {NOW && (
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
+                <h3 className="font-semibold">Work</h3>
+                <p className="mt-2 text-sm text-slate-700 dark:text-zinc-300">{NOW.work}</p>
+              </div>
+              <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
+                <h3 className="font-semibold">Life</h3>
+                <p className="mt-2 text-sm text-slate-700 dark:text-zinc-300">{NOW.life}</p>
+              </div>
+              <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
+                <h3 className="font-semibold">Culture</h3>
+                <p className="mt-2 text-sm text-slate-700 dark:text-zinc-300">{NOW.culture}</p>
+              </div>
             </div>
-            <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
-              <h3 className="font-semibold">Life</h3>
-              <p className="mt-2 text-sm text-slate-700 dark:text-zinc-300">Moving back to the Bay Area; weighing SF vs South Bay. Keeping up with F1. Nurturing a peace lily.</p>
-            </div>
-            <div className="rounded-2xl border border-black/10 dark:border-white/10 p-5">
-              <h3 className="font-semibold">Culture</h3>
-              <p className="mt-2 text-sm text-slate-700 dark:text-zinc-300">Reading Murakami; listening to Lou Reed's "Perfect Day"; learning about kintsugi and wabi‑sabi.</p>
-            </div>
-          </div>
+          )}
         </section>
 
         
@@ -311,24 +232,22 @@ export default function Site() {
         {/* About */}
         <section id="about" className="mx-auto max-w-6xl px-4 py-10 border-t border-black/5 dark:border-white/5">
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">About</h2>
-          <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="md:col-span-2 text-sm text-slate-700 dark:text-zinc-300 leading-7">
-              <p>
-                I’m a hardware‑trained engineer turned ML practitioner. I like models that stay close to physics and data, simple interfaces that get out of the way, and tools you can trust.
-              </p>
-              <p className="mt-3">
-                Interests: AI systems, power/perf modeling, editor ergonomics, Japanese craft, and quiet weekends on twisty roads.
-              </p>
+          {ABOUT && (
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="md:col-span-2 text-sm text-slate-700 dark:text-zinc-300 leading-7">
+                <p>{ABOUT.main}</p>
+                <p className="mt-3">{ABOUT.additional}</p>
+              </div>
+              <div className="md:col-span-1 rounded-2xl border border-black/10 dark:border-white/10 p-5">
+                <h3 className="font-semibold">Fast facts</h3>
+                <ul className="mt-2 space-y-2 text-sm">
+                  {ABOUT.fastFacts?.map((fact, i) => (
+                    <li key={i}>{fact}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
-            <div className="md:col-span-1 rounded-2xl border border-black/10 dark:border-white/10 p-5">
-              <h3 className="font-semibold">Fast facts</h3>
-              <ul className="mt-2 space-y-2 text-sm">
-                <li>Based in India for now; heading back to the Bay Area.</li>
-                <li>Tracks F1; likes well‑made tools.</li>
-                <li>Long‑distance relationship; Wordle is a ritual.</li>
-              </ul>
-            </div>
-          </div>
+          )}
         </section>
 
         {/* Contact */}
