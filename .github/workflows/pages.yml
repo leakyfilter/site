@@ -48,6 +48,7 @@ jobs:
           mkdir -p dist
           cp index.html dist/index.html
           cp CNAME dist/CNAME
+          if [ -d assets ]; then cp -R assets dist/assets; fi
           if [ -f resume.pdf ]; then cp resume.pdf dist/resume.pdf; fi
 
       - name: Upload artifact
