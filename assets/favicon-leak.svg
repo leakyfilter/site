@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Leaking prompt favicon option">
+  <rect width="64" height="64" rx="18" fill="#111215" />
+  <path
+    d="M23 15 V45 Q23 49 27 49 H30"
+    fill="none"
+    stroke="#f5f5f4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="5.5"
+  />
+  <path
+    d="M37 23 L47 32 L37 41"
+    fill="none"
+    stroke="#f5f5f4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="5"
+  />
+  <path
+    d="M31 50 C34 52, 35 54, 35 56 C35 58.5, 33.3 60, 31 60 C28.7 60, 27 58.5, 27 56 C27 54, 28 52, 31 50 Z"
+    fill="#f5f5f4"
+  />
+</svg>

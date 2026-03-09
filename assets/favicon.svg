@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="leaky.dev favicon">
+  <rect width="64" height="64" rx="18" fill="#111215" />
+  <path
+    d="M23 15 V45 Q23 49 27 49 H31"
+    fill="none"
+    stroke="#f5f5f4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="5.5"
+  />
+  <path
+    d="M37 23 L47 32 L37 41"
+    fill="none"
+    stroke="#f5f5f4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="5"
+  />
+</svg>
