@@ -37,7 +37,6 @@ title: "Post Title"
 date: "2025-01-01"
 tags: ["Tag1", "Tag2"]
 excerpt: "Brief summary"
-href: "#"
 ---
 
 Post content in markdown...
@@ -72,8 +71,8 @@ npm run dev
 - `title`: Post title
 - `date`: ISO date string (2025-01-01)
 - `tags`: Array of tags for filtering
-- `excerpt`: Short summary for card display
-- `href`: Link to full post
+- `excerpt`: Short summary for the homepage card and post intro
+- body markdown: The full post, rendered on `#/posts/<filename>` via the filename slug
 
 ### Pages
 Use yaml arrays/strings for structured data that maps to your React components.
