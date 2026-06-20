@@ -94,9 +94,8 @@ function HomePage({ activeTag, allTags, filteredPosts, query, setActiveTag, setQ
                   <figcaption>leakyfilter · mark 01</figcaption>
                 </figure>
                 <p>
-                  I’m <strong>Mohit Garg</strong>. I try to understand systems from a single chip
-                  to a large datacenter, and the software that makes them hum together in
-                  synchrony.
+                  I'm <strong>Mohit Garg</strong>. I try to understand how hardware and software
+                  can be co-designed to make gpus go brrr.
                 </p>
               </div>
             </div>
