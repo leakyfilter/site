@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mohit Garg</title>
     <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
-    <!-- Tailwind via CDN (no build step needed) -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      tailwind.config = { darkMode: 'class' };
+      document.documentElement.dataset.theme =
+        localStorage.getItem("leaky-theme") || localStorage.getItem("paper-theme") || "dark";
     </script>
+    <link rel="stylesheet" href="./bundle.css" />
   </head>
-  <body class="bg-white text-slate-900">
+  <body>
     <div id="root"></div>
-    <!-- App bundle built by esbuild in CI -->
     <script src="./bundle.js"></script>
   </body>
-  
 </html>

@@ -24,7 +24,7 @@ function parseInline(text) {
         <a
           key={`${match.index}-link`}
           href={match[3]}
-          className="underline decoration-slate-400/70 underline-offset-4 hover:decoration-slate-900 dark:decoration-zinc-500 dark:hover:decoration-zinc-100"
+          className="markdown-link"
         >
           {match[2]}
         </a>
@@ -33,7 +33,7 @@ function parseInline(text) {
       nodes.push(
         <code
           key={`${match.index}-code`}
-          className="rounded bg-black/5 px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/10"
+          className="inline-code"
         >
           {match[4]}
         </code>
@@ -57,7 +57,7 @@ function parseInline(text) {
 function renderParagraph(text, key) {
   if (!text) return null;
   return (
-    <p key={key} className="text-base leading-8 text-slate-700 dark:text-zinc-300">
+    <p key={key} className="markdown-paragraph">
       {parseInline(text)}
     </p>
   );
@@ -81,10 +81,7 @@ export default function MarkdownContent({ content }) {
   const flushList = () => {
     if (!listItems.length) return;
     const Tag = listType === "ol" ? "ol" : "ul";
-    const listClassName =
-      listType === "ol"
-        ? "list-decimal space-y-2 pl-6 text-slate-700 dark:text-zinc-300"
-        : "list-disc space-y-2 pl-6 text-slate-700 dark:text-zinc-300";
+    const listClassName = `markdown-list ${listType === "ol" ? "markdown-list--ordered" : "markdown-list--unordered"}`;
 
     elements.push(
       <Tag key={`list-${elements.length}`} className={listClassName}>
@@ -103,7 +100,7 @@ export default function MarkdownContent({ content }) {
     elements.push(
       <pre
         key={`code-${elements.length}`}
-        className="overflow-x-auto rounded-2xl border border-black/10 bg-zinc-950 p-4 text-sm text-zinc-100 dark:border-white/10"
+        className="markdown-code-block"
       >
         <code>{codeLines.join("\n")}</code>
       </pre>
@@ -144,14 +141,9 @@ export default function MarkdownContent({ content }) {
       const level = headingMatch[1].length;
       const text = headingMatch[2];
       const id = slugify(text);
-      const headingClasses = {
-        1: "text-4xl font-semibold tracking-tight text-slate-950 dark:text-zinc-50",
-        2: "text-2xl font-semibold tracking-tight text-slate-950 dark:text-zinc-50",
-        3: "text-xl font-semibold tracking-tight text-slate-950 dark:text-zinc-100",
-      };
       const Tag = `h${level}`;
       elements.push(
-        <Tag key={`h-${elements.length}`} id={id} className={headingClasses[level]}>
+        <Tag key={`h-${elements.length}`} id={id}>
           {parseInline(text)}
         </Tag>
       );
@@ -165,7 +157,7 @@ export default function MarkdownContent({ content }) {
       elements.push(
         <blockquote
           key={`quote-${elements.length}`}
-          className="border-l-2 border-slate-300 pl-4 text-base italic leading-8 text-slate-600 dark:border-zinc-700 dark:text-zinc-300"
+          className="markdown-quote"
         >
           {parseInline(blockquoteMatch[1])}
         </blockquote>
@@ -202,5 +194,5 @@ export default function MarkdownContent({ content }) {
   flushList();
   flushCodeBlock();
 
-  return <div className="space-y-6">{elements}</div>;
+  return <div className="markdown-content">{elements}</div>;
 }
