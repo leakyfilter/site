@@ -44,6 +44,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
@@ -64,6 +65,15 @@ a {
   color: inherit;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
 button:focus-visible,
 a:focus-visible,
 input:focus-visible {
@@ -73,7 +83,6 @@ input:focus-visible {
 
 .app-shell {
   min-height: 100vh;
-  overflow: hidden;
   background-color: var(--paper);
   background-image: repeating-linear-gradient(
     90deg,
@@ -147,6 +156,7 @@ input:focus-visible {
 
 .hero {
   padding: 58px 0 48px;
+  scroll-margin-top: 78px;
 }
 
 .hero-copy {
@@ -241,8 +251,38 @@ input:focus-visible {
   white-space: nowrap;
 }
 
+.avatar-socials {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.avatar-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.avatar-social:hover {
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.avatar-social svg {
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}
+
 .writing-section {
   padding: 40px 0 88px;
+  scroll-margin-top: 78px;
 }
 
 .section-heading {

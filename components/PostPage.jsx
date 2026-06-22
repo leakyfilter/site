@@ -11,6 +11,10 @@ function formatDate(date) {
   });
 }
 
+function getDisplayDate(post) {
+  return post.lastUpdated ?? post.date;
+}
+
 function getPostUrl(post) {
   return `#/posts/${post.slug}`;
 }
@@ -43,6 +47,7 @@ function NotionSourceCard({ post }) {
 }
 
 export default function PostPage({ post }) {
+  const displayDate = getDisplayDate(post);
   const relatedPosts = POSTS.filter((candidate) => candidate.slug !== post.slug)
     .filter((candidate) => !candidate.hidden)
     .filter((candidate) => candidate.tags.some((tag) => post.tags.includes(tag)))
@@ -62,7 +67,7 @@ export default function PostPage({ post }) {
 
         <header className="article-header">
           <p className="article-date">
-            <time dateTime={post.date}>{formatDate(post.date)}</time> · {getStatusLabel(post)}
+            <time dateTime={displayDate}>{formatDate(displayDate)}</time> · {getStatusLabel(post)}
           </p>
           <h1>{post.title}</h1>
           <p className="article-deck">{post.excerpt}</p>
@@ -88,7 +93,7 @@ export default function PostPage({ post }) {
           <div className="related-list">
             {relatedPosts.map((related) => (
               <a key={related.slug} href={getPostUrl(related)} className="related-item">
-                <time dateTime={related.date}>{formatDate(related.date)}</time>
+                <time dateTime={getDisplayDate(related)}>{formatDate(getDisplayDate(related))}</time>
                 <h3>{related.title}</h3>
                 <span className="related-link">Read →</span>
               </a>

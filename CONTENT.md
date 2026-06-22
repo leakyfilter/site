@@ -35,6 +35,7 @@ Create a new file in `content/posts/`:
 ---
 title: "Post Title"
 date: "2025-01-01"
+lastUpdated: "2025-01-01"
 tags: ["Tag1", "Tag2"]
 excerpt: "Brief summary"
 ---
@@ -70,6 +71,7 @@ npm run dev
 ### Posts
 - `title`: Post title
 - `date`: ISO date string (2025-01-01)
+- `lastUpdated`: Optional ISO date string shown on cards and article headers; use the Notion page's last-edited date for Notion-backed notes
 - `tags`: Array of tags for filtering
 - `excerpt`: Short summary for the homepage card and post intro
 - body markdown: The full post, rendered on `#/posts/<filename>` via the filename slug

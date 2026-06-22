@@ -6,6 +6,9 @@
     <title>Mohit Garg</title>
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
     <script>
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
       document.documentElement.dataset.theme =
         localStorage.getItem("leaky-theme") || localStorage.getItem("paper-theme") || "dark";
     </script>

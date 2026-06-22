@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useLayoutEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { POSTS } from "./data.js";
 import PostPage from "./components/PostPage.jsx";
@@ -20,7 +20,7 @@ function getRouteFromHash(hash) {
     };
   }
 
-  return { type: "home", anchor: value || "home" };
+  return { type: "home", anchor: value || null };
 }
 
 function getPostHref(post) {
@@ -35,11 +35,16 @@ function formatDate(date) {
   });
 }
 
+function getDisplayDate(post) {
+  return post.lastUpdated ?? post.date;
+}
+
 function StoryCard({ index, post }) {
   const isNotionNote = post.renderMode === "notion";
   const href = isNotionNote ? post.externalUrl ?? post.notionPage ?? getPostHref(post) : getPostHref(post);
   const title = isNotionNote ? post.sourceTitle ?? post.title : post.title;
   const actionLabel = isNotionNote ? "Open in Notion →" : "Read note →";
+  const displayDate = getDisplayDate(post);
 
   return (
     <motion.a
@@ -53,7 +58,7 @@ function StoryCard({ index, post }) {
       transition={{ duration: 0.35, delay: Math.min(index * 0.04, 0.16) }}
     >
       <div className="story-meta">
-        <time dateTime={post.date}>{formatDate(post.date)}</time>
+        <time dateTime={displayDate}>{formatDate(displayDate)}</time>
       </div>
       <div className="story-copy">
         <div className="story-kicker">{post.tags.join(" · ")}</div>
@@ -62,6 +67,25 @@ function StoryCard({ index, post }) {
       </div>
       <span className="story-link">{actionLabel}</span>
     </motion.a>
+  );
+}
+
+function AvatarSocialLinks() {
+  return (
+    <div className="avatar-socials" aria-label="Social links">
+      <a className="avatar-social" href="https://x.com/leakyfilter" aria-label="Twitter / X">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18.9 2.5h3.3l-7.2 8.3 8.5 10.7h-6.7l-5.2-6.6-6 6.6H2.3l7.7-8.8L1.8 2.5h6.8l4.7 5.9 5.6-5.9Zm-1.2 17.1h1.8L7.6 4.3H5.7l12 15.3Z" />
+        </svg>
+        <span className="sr-only">Twitter / X</span>
+      </a>
+      <a className="avatar-social" href="https://github.com/leakyfilter" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.2.8-.6v-2c-3.4.7-4.1-1.4-4.1-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.2 1.9 1.2 1.1 1.9 2.9 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.6-1.4-5.6-6A4.7 4.7 0 0 1 5.9 7.5c-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.9.1 3.2A4.7 4.7 0 0 1 20 10.7c0 4.7-2.9 5.7-5.6 6 .4.3.8 1 .8 2.1V22c0 .3.2.7.8.6A11.2 11.2 0 0 0 12 .8Z" />
+        </svg>
+        <span className="sr-only">GitHub</span>
+      </a>
+    </div>
   );
 }
 
@@ -92,6 +116,7 @@ function HomePage({ activeTag, allTags, filteredPosts, query, setActiveTag, setQ
                     alt="Abstract funnel illustration used as Mohit Garg's avatar"
                   />
                   <figcaption>leakyfilter · mark 01</figcaption>
+                  <AvatarSocialLinks />
                 </figure>
                 <p>
                   I'm <strong>Mohit Garg</strong>. I try to understand how hardware and software
@@ -222,13 +247,18 @@ export default function Site() {
     window.localStorage.setItem("leaky-theme", theme);
   }, [theme]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (route.type === "post") {
       window.scrollTo({ top: 0, behavior: "auto" });
       return;
     }
 
     window.requestAnimationFrame(() => {
+      if (!route.anchor || route.anchor === "home") {
+        window.scrollTo({ top: 0, behavior: "auto" });
+        return;
+      }
+
       const target = route.anchor ? document.getElementById(route.anchor) : null;
       if (target) target.scrollIntoView();
       else window.scrollTo({ top: 0, behavior: "auto" });
