@@ -98,7 +98,7 @@ function HomePage({ activeTag, allTags, filteredPosts, query, setActiveTag, setQ
       <main>
         <section id="home" className="page-shell hero">
           <div className="hero-copy">
-            <p className="eyebrow">ML Systems Architect</p>
+            <p className="eyebrow">ML Systems Architect · NVIDIA</p>
             <div className="hero-main">
               <motion.h1
                 aria-label="I think a lot about Amdahl’s law."
