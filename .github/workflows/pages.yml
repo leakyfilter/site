@@ -43,6 +43,9 @@ jobs:
             --outfile=dist/bundle.js \
             --jsx=automatic
 
+      - name: Build unlisted job board
+        run: npm run build:jobs
+
       - name: Copy static files to dist
         run: |
           mkdir -p dist

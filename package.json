@@ -1,7 +1,9 @@
 {
   "scripts": {
     "build:content": "node build-content.js",
-    "build": "npm run build:content && npx esbuild main.jsx --bundle --outfile=dist/bundle.js --format=iife --sourcemap && node sync-static.js",
+    "build:jobs": "node build-jobs.js",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "build": "npm run build:content && npx esbuild main.jsx --bundle --outfile=dist/bundle.js --format=iife --sourcemap && node sync-static.js && npm run build:jobs",
     "dev": "node dev.js"
   },
   "dependencies": {

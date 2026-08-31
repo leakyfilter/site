@@ -78,3 +78,7 @@ npm run dev
 
 ### Pages
 Use yaml arrays/strings for structured data that maps to your React components.
+
+## Personal job board
+
+The unlisted job board is an independent entry point, not a homepage page or post. Its source records live in `content/jobs/`; see `docs/job-board.md` for authoring, privacy limitations, build commands, and the proposed future scan workflow. Do not link it from homepage content or navigation.

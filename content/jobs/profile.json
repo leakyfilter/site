@@ -1,0 +1,16 @@
+{
+  "name": "Mohit Garg",
+  "positioning": "I’ve spent five years at NVIDIA building deep-learning-based runtime power allocation across CPU, GPU, memory, and I/O. I’m looking to apply that hardware-aware ML and optimization experience to inference infrastructure or onboard robotic systems.",
+  "principle": "A new problem domain. A familiar technical advantage.",
+  "tracks": [
+    { "id": "robotics", "label": "Robotics & onboard ML", "description": "Real-time inference, robot deployment, and onboard compute." },
+    { "id": "inference", "label": "Inference & runtime", "description": "Efficient model execution, memory, serving, and runtime performance." },
+    { "id": "codesign", "label": "Hardware/software co-design", "description": "Accelerator architecture and software that evolve together." },
+    { "id": "scheduling", "label": "Scheduling & resources", "description": "Workload placement and resource management at a new scale." }
+  ],
+  "scan": {
+    "enabled": false,
+    "lastRunAt": null,
+    "note": "Daily scanning is not enabled. Six requested companies are included; proposed additions remain open for review."
+  }
+}
