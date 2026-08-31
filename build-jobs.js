@@ -10,8 +10,8 @@ async function buildJobs() {
     companies: require("./content/jobs/companies.json"),
     listings: require("./content/jobs/listings.json"),
   });
-  if (!/^opportunities-[a-f0-9]{24}$/.test(config.path)) {
-    throw new Error("Job-board path must be an opportunities- prefix and 24 hexadecimal characters.");
+  if (!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(config.path)) {
+    throw new Error("Job-board path must be a single lowercase URL slug.");
   }
   const output = path.join(__dirname, "dist", config.path);
   await esbuild.build({

@@ -15,7 +15,9 @@
 
 The path is configured once in `job-board.config.json`:
 
-`/opportunities-d51ac1d10de5943ae58bb9ea/`
+`/jobs/` — https://leaky.dev/jobs/
+
+The short, readable URL was explicitly requested. It is easy to guess even without a homepage link.
 
 The board has no homepage or navigation link, is not imported into the homepage bundle, and has its own `noindex, nofollow, noarchive` and `no-referrer` metadata. External links use `noopener noreferrer`. Do not add it to a sitemap or a path-specific robots.txt rule, which would advertise the path. Search-engine directives are advisory, not a guarantee of secrecy.
 

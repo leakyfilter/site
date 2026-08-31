@@ -94,16 +94,16 @@ test("invalid data fails before publication", () => {
 test("unlisted page is isolated from the homepage build and suppresses indexing/referrers", () => {
   for (const name of ["site.jsx", "main.jsx", "index.html"]) {
     const source = fs.readFileSync(path.join(root, name), "utf8");
-    assert.ok(!source.includes(config.path));
+    assert.ok(!source.includes(`/${config.path}/`));
     assert.ok(!source.includes("JobBoard"));
     assert.ok(!source.includes("content/jobs"));
   }
   const html = fs.readFileSync(path.join(root, "jobs.html"), "utf8");
   assert.match(html, /name="robots" content="noindex, nofollow, noarchive"/);
   assert.match(html, /name="referrer" content="no-referrer"/);
-  assert.match(config.path, /^opportunities-[a-f0-9]{24}$/);
+  assert.equal(config.path, "jobs");
   const homeBundle = fs.readFileSync(path.join(root, "dist/bundle.js"), "utf8");
-  assert.ok(!homeBundle.includes(config.path));
+  assert.ok(!homeBundle.includes(`/${config.path}/`));
   assert.ok(!homeBundle.includes("deep-learning-based runtime power allocation"));
   assert.ok(!homeBundle.includes("5224564008"));
   const output = path.join(root, "dist", config.path);
