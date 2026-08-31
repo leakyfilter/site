@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "check:jobs": "node scripts/check-jobs.cjs",
     "build:content": "node build-content.js",
     "build:jobs": "node build-jobs.js",
     "test": "npm run build && node --test tests/*.test.cjs",

@@ -14,13 +14,31 @@
     "fit": "A particularly direct bridge from hardware-aware performance reasoning into production inference and fleet-scale tradeoffs.",
     "stretch": "Cost-to-serve modeling, inference stacks, distributed fleet behavior, and cross-layer software tooling.",
     "watchFor": "Clarify how much time goes to implementing runtime improvements versus modeling and advising component teams. Confirm office expectations.",
-    "skills": ["Performance modeling", "Profiling", "Accelerators", "Networking", "Fleet scheduling"],
+    "skills": [
+      "Performance modeling",
+      "Profiling",
+      "Accelerators",
+      "Networking",
+      "Fleet scheduling"
+    ],
     "url": "https://openai.com/careers/software-engineer-inference-performance-optimization-san-francisco/",
     "sourcePublishedAt": null,
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Employer careers page with application link"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "anthropic:5224564008",
@@ -37,13 +55,31 @@
     "fit": "Strong alignment with cross-component efficiency tradeoffs; accelerator reasoning matters more here than prior kernel authorship.",
     "stretch": "Large-scale inference, correctness evaluations, production telemetry, and influencing multiple owning teams.",
     "watchFor": "The team explicitly does not own the individual runtime components. Assess whether analysis-led influence provides the ownership you want.",
-    "skills": ["Python", "Roofline analysis", "Profiling", "SQL / pandas", "Correctness evaluation"],
+    "skills": [
+      "Python",
+      "Roofline analysis",
+      "Profiling",
+      "SQL / pandas",
+      "Correctness evaluation"
+    ],
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5224564008",
     "sourcePublishedAt": null,
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Employer job page with application form"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "cohere:2a989030-6d14-4924-88c1-d878911e26fa",
@@ -60,13 +96,31 @@
     "fit": "A software-forward efficiency role with explicit opportunities to develop GPU, kernel, and model-execution expertise.",
     "stretch": "Production LLM inference, MoE execution, GPU/CUDA optimization, and performance-critical distributed systems.",
     "watchFor": "Existing LLM ecosystem familiarity and production coding are expected. Confirm ramp-up support and eligible remote locations.",
-    "skills": ["C++", "Python", "vLLM", "SGLang", "GPU optimization"],
+    "skills": [
+      "C++",
+      "Python",
+      "vLLM",
+      "SGLang",
+      "GPU optimization"
+    ],
     "url": "https://jobs.ashbyhq.com/cohere/2a989030-6d14-4924-88c1-d878911e26fa",
     "sourcePublishedAt": "2025-11-07",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/cohere?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "google:99053601367696070",
@@ -83,13 +137,31 @@
     "fit": "Direct ECE and performance-architecture leverage, with a new accelerator and LLM serving domain.",
     "stretch": "TPU architecture, pre-silicon co-design, and model-research collaboration.",
     "watchFor": "Google is not a startup. Validate team-level iteration speed and software implementation scope; office arrangement is not stated.",
-    "skills": ["C++", "Python", "Performance modeling", "Computer architecture", "LLM serving"],
+    "skills": [
+      "C++",
+      "Python",
+      "Performance modeling",
+      "Computer architecture",
+      "LLM serving"
+    ],
     "url": "https://www.google.com/about/careers/applications/jobs/results/99053601367696070-senior-performance-codesign-engineer-tpu",
     "sourcePublishedAt": null,
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
-    "status": "open",
-    "verification": "Google Careers role details with Apply action"
+    "status": "closed",
+    "verification": "Google Careers role details with Apply action",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "closed",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "closed",
+        "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/99053601367696070-senior-performance-codesign-engineer-tpu",
+        "detail": "Google Careers explicitly says: Job not found. This job may have been taken down."
+      }
+    ],
+    "archivedAt": "2026-08-31",
+    "archiveReason": "Google Careers explicitly says: Job not found. This job may have been taken down."
   },
   {
     "id": "physicalintelligence:1e8a741a-d415-4c34-9ac8-eda4c5393e41",
@@ -106,13 +178,31 @@
     "fit": "Whole-system optimization transfers to a genuinely new physical-world domain.",
     "stretch": "Robot integration, video streaming, teleoperation, and real-time production systems.",
     "watchFor": "This is broader deployment and teleoperation work, not exclusively onboard inference. Confirm the proportion of ML runtime ownership.",
-    "skills": ["C++", "Rust", "Python", "Profiling", "Real-time systems"],
+    "skills": [
+      "C++",
+      "Rust",
+      "Python",
+      "Profiling",
+      "Real-time systems"
+    ],
     "url": "https://jobs.ashbyhq.com/physicalintelligence/1e8a741a-d415-4c34-9ac8-eda4c5393e41",
     "sourcePublishedAt": "2026-06-08",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "bedrock-robotics:1871fdc6-6eba-4397-8725-c4e5c036ab54",
@@ -129,13 +219,31 @@
     "fit": "Direct hardware/software overlap with a new autonomy and field-deployment problem space.",
     "stretch": "Embedded Linux, robot middleware, sensor bring-up, and fleet reliability.",
     "watchFor": "The role also includes OS services, updates, and platform maintenance. Confirm meaningful performance ownership and level expectations.",
-    "skills": ["C++", "Rust", "Python", "Linux", "Jetson / TensorRT"],
+    "skills": [
+      "C++",
+      "Rust",
+      "Python",
+      "Linux",
+      "Jetson / TensorRT"
+    ],
     "url": "https://jobs.ashbyhq.com/bedrock-robotics/1871fdc6-6eba-4397-8725-c4e5c036ab54",
     "sourcePublishedAt": "2025-07-16",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "modal:af17da5e-23ca-4802-854d-5f0546e1ed32",
@@ -152,13 +260,31 @@
     "fit": "A strong bridge from GPU architecture and workload efficiency into hands-on inference software.",
     "stretch": "Production inference engines, CUDA execution details, and runtime implementation.",
     "watchFor": "Requires demonstrated high-performance coding, GPU performance work, and familiarity with CUDA and vLLM or TensorRT. Work arrangement needs confirmation.",
-    "skills": ["PyTorch", "CUDA", "vLLM", "TensorRT", "GPU architecture"],
+    "skills": [
+      "PyTorch",
+      "CUDA",
+      "vLLM",
+      "TensorRT",
+      "GPU architecture"
+    ],
     "url": "https://jobs.ashbyhq.com/modal/af17da5e-23ca-4802-854d-5f0546e1ed32",
     "sourcePublishedAt": "2026-04-21",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "baseten:d29e748c-7209-460d-a024-8f77ae0a3d4d",
@@ -175,13 +301,31 @@
     "fit": "Combines deep GPU understanding with ownership of measurable, model-level performance improvements.",
     "stretch": "LLM serving techniques and hands-on work inside TensorRT-LLM, vLLM, SGLang, and PyTorch.",
     "watchFor": "LLM optimization familiarity is expected. Confirm room to ramp and the team's decision speed at this later-stage company.",
-    "skills": ["Python", "C++", "PyTorch", "TensorRT-LLM", "LLM inference"],
+    "skills": [
+      "Python",
+      "C++",
+      "PyTorch",
+      "TensorRT-LLM",
+      "LLM inference"
+    ],
     "url": "https://jobs.ashbyhq.com/baseten/d29e748c-7209-460d-a024-8f77ae0a3d4d",
     "sourcePublishedAt": "2024-03-28",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "etched:0f9c0162-97c6-4be6-9cb7-d9afdcf0fa7c",
@@ -198,13 +342,31 @@
     "fit": "A software-forward move that still rewards accelerator architecture and hardware-aware reasoning.",
     "stretch": "C++ or Rust runtime development, collectives, and model porting to non-standard hardware.",
     "watchFor": "Check the expected existing model-porting experience and how much work is runtime design versus integration.",
-    "skills": ["C++", "Rust", "PyTorch / JAX", "Accelerators", "Distributed runtime"],
+    "skills": [
+      "C++",
+      "Rust",
+      "PyTorch / JAX",
+      "Accelerators",
+      "Distributed runtime"
+    ],
     "url": "https://jobs.ashbyhq.com/etched/0f9c0162-97c6-4be6-9cb7-d9afdcf0fa7c",
     "sourcePublishedAt": "2025-06-17",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "etched:69e75a95-6476-452d-bb41-86ac7ce52a98",
@@ -221,13 +383,30 @@
     "fit": "The most direct architecture-aligned transfer while expanding into accelerator hardware/software co-design.",
     "stretch": "Custom accelerator modeling, multi-chip inference, and architecture exploration.",
     "watchFor": "Ensure the role influences implementation and architecture rather than being mostly benchmark reporting or familiar power work.",
-    "skills": ["Computer architecture", "Performance modeling", "ML workloads", "Simulation"],
+    "skills": [
+      "Computer architecture",
+      "Performance modeling",
+      "ML workloads",
+      "Simulation"
+    ],
     "url": "https://jobs.ashbyhq.com/etched/69e75a95-6476-452d-bb41-86ac7ce52a98",
     "sourcePublishedAt": "2026-04-21",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "etched:b09ced5f-c81a-4fbe-a85e-ed743c991e21",
@@ -244,13 +423,31 @@
     "fit": "An exploratory ML-for-systems role: use learned tools to improve hardware-aware optimization.",
     "stretch": "Kernel engineering, agent-driven optimization, and correctness/performance evaluation infrastructure.",
     "watchFor": "Requires actual kernel tuning experience. Treat as a stretch until that requirement is calibrated; posted cash range may also matter.",
-    "skills": ["Python", "Low-level code", "Kernels", "Profiling", "AI evaluation"],
+    "skills": [
+      "Python",
+      "Low-level code",
+      "Kernels",
+      "Profiling",
+      "AI evaluation"
+    ],
     "url": "https://jobs.ashbyhq.com/etched/b09ced5f-c81a-4fbe-a85e-ed743c991e21",
     "sourcePublishedAt": "2026-07-23",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   },
   {
     "id": "modal:9b33ebe7-e829-4f03-97ba-5c94dbd7daf6",
@@ -267,12 +464,197 @@
     "fit": "A possible route into resource management at a new scale, with a strong systems-performance foundation.",
     "stretch": "Large-scale distributed services, Linux internals, cloud infrastructure, and production on-call.",
     "watchFor": "The listing does not promise scheduling ownership. Confirm scope; it also expects substantial production distributed-systems experience.",
-    "skills": ["Distributed systems", "Linux", "Cloud", "Performance", "Rust (optional)"],
+    "skills": [
+      "Distributed systems",
+      "Linux",
+      "Cloud",
+      "Performance",
+      "Rust (optional)"
+    ],
     "url": "https://jobs.ashbyhq.com/modal/9b33ebe7-e829-4f03-97ba-5c94dbd7daf6",
     "sourcePublishedAt": "2024-10-23",
     "firstSeenAt": "2026-08-31",
     "lastVerifiedAt": "2026-08-31",
     "status": "open",
-    "verification": "Listed in employer ATS feed"
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "openai:3c2d1178-777f-4613-a084-75a3d37cd1af",
+    "sourceId": "3c2d1178-777f-4613-a084-75a3d37cd1af",
+    "companyId": "openai",
+    "title": "Inference Engineer, Robotics",
+    "track": "robotics",
+    "priority": 1,
+    "workplace": "Hybrid · 3 days per week in San Francisco",
+    "salary": "$380K (published salary)",
+    "level": "Level not specified · deep inference and kernel expertise expected",
+    "summary": "Optimize GPU inference and data movement for robotics models, and work with researchers on model designs that serve efficiently.",
+    "fit": "Connects your hardware-aware ML and efficiency background directly to robotics, with concrete ownership of inference performance.",
+    "stretch": "Production GPU kernels, model serving infrastructure, and low-level inference optimization.",
+    "watchFor": "This is robotics research serving, not necessarily onboard embedded inference. Clarify deployment targets and the expected depth of existing kernel expertise.",
+    "skills": [
+      "GPU inference",
+      "Kernel optimization",
+      "Data movement",
+      "Model serving",
+      "Performance analysis"
+    ],
+    "location": "San Francisco",
+    "url": "https://jobs.ashbyhq.com/openai/3c2d1178-777f-4613-a084-75a3d37cd1af",
+    "sourcePublishedAt": "2025-04-21",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "physicalintelligence:f6bee7a7-57ae-4ec1-9276-ae3bcbdc7327",
+    "sourceId": "f6bee7a7-57ae-4ec1-9276-ae3bcbdc7327",
+    "companyId": "physicalintelligence",
+    "title": "Robotics Software Engineer",
+    "track": "robotics",
+    "priority": 1,
+    "workplace": "On-site",
+    "salary": null,
+    "level": "Level not specified · production systems programming expected",
+    "summary": "Build real-time robotics runtimes, tuning Linux scheduling, sensor pipelines, compute, memory, I/O, and networking under strict latency budgets.",
+    "fit": "Your whole-system resource tradeoff experience maps closely to robot runtime constraints while opening a new physical-world domain.",
+    "stretch": "Linux internals, driver and sensor pipelines, jitter control, and hands-on real-time software.",
+    "watchFor": "The role makes models run reliably rather than designing ML models. Confirm scope and expectations for prior Linux/driver implementation.",
+    "skills": [
+      "C++",
+      "Rust",
+      "Python",
+      "Linux",
+      "Real-time systems",
+      "Profiling"
+    ],
+    "location": "San Francisco",
+    "url": "https://jobs.ashbyhq.com/physicalintelligence/f6bee7a7-57ae-4ec1-9276-ae3bcbdc7327",
+    "sourcePublishedAt": "2026-01-06",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "baseten:75d7beac-0298-40fa-b206-2e0c0c08a64f",
+    "sourceId": "75d7beac-0298-40fa-b206-2e0c0c08a64f",
+    "companyId": "baseten",
+    "title": "Software Engineer - Model Performance Systems",
+    "track": "inference",
+    "priority": 1,
+    "workplace": "Hybrid",
+    "salary": "$165K–$330K (published range)",
+    "level": "Mid–senior · technical ownership and mentoring",
+    "summary": "Build LLM benchmarking and profiling systems, automate performance regressions, and find workload configurations with the best latency, cost, and quality tradeoffs.",
+    "fit": "An especially close match to workload-dependent optimization, with a new inference-software domain and explicit hardware curiosity.",
+    "stretch": "LLM benchmarking, distributed GPU systems, performance CI, and end-to-end inference tooling.",
+    "watchFor": "Much of the ownership is performance infrastructure rather than model-runtime implementation. Confirm how much optimization work you would directly ship.",
+    "skills": [
+      "Python",
+      "C++",
+      "Nsight Systems",
+      "PyTorch Profiler",
+      "LLM benchmarking",
+      "GPU memory"
+    ],
+    "location": "San Francisco; Toronto; New York; Montreal",
+    "url": "https://jobs.ashbyhq.com/baseten/75d7beac-0298-40fa-b206-2e0c0c08a64f",
+    "sourcePublishedAt": "2026-01-07",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "google:122537766893298374",
+    "sourceId": "122537766893298374",
+    "companyId": "google",
+    "title": "Software Engineer, Hardware Accelerators Performance, GeminiApp, DeepMind",
+    "track": "inference",
+    "priority": 2,
+    "location": "Mountain View, CA / San Francisco, CA",
+    "workplace": "Not specified in listing",
+    "salary": "$147K–$210K USD / year + 15% bonus target + equity",
+    "level": "2+ years C++ or Python development required · calibrate level",
+    "summary": "Improve Gemini training and serving efficiency across TPUs/GPUs, kernels, runtimes, and compilers; profile distributed compute, memory, and communication bottlenecks.",
+    "fit": "A software-forward move that uses hardware performance intuition while building practical expertise in inference and accelerator software.",
+    "stretch": "Custom kernel implementation, JAX, distributed model performance, and compiler passes.",
+    "watchFor": "The minimum experience threshold is below your five years at NVIDIA; confirm level and compensation fit. Also clarify the generic agent-testing language versus the accelerator-focused responsibilities.",
+    "skills": [
+      "C++",
+      "Python",
+      "TPU / GPU",
+      "Profiling",
+      "Custom kernels",
+      "JAX"
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/122537766893298374-software-engineer-hardware-accelerators-performance-geminiapp-deepmind",
+    "sourcePublishedAt": null,
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Matching Google Careers role page with qualifications and an application link.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/122537766893298374-software-engineer-hardware-accelerators-performance-geminiapp-deepmind",
+        "detail": "Matching Google Careers role page with qualifications and an application link."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   }
 ]

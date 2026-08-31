@@ -4,3 +4,4 @@ data.js
 bundle.js
 bundle.js.map
 .DS_Store
+.job-check/

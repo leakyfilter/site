@@ -18,7 +18,7 @@ test("job board renders all records, controls, reference, and honest monitoring 
   new Function("require", "module", "exports", result.outputFiles[0].text)(require, compiled, compiled.exports);
   const html = renderToStaticMarkup(React.createElement(compiled.exports.default));
   assert.equal((html.match(/class="job-card"/g) || []).length, listings.length);
-  assert.match(html, /Manual snapshot · scan off/);
+  assert.match(html, /Daily check · 9 AM PT/);
   assert.match(html, /Unlisted, not access-controlled/);
   assert.match(html, /aria-label="Filter by career direction"/);
   assert.match(html, /Search jobs/);
@@ -32,7 +32,15 @@ test("job board renders all records, controls, reference, and honest monitoring 
   assert.equal((html.match(/<details class="job-details">/g) || []).length, listings.length);
   assert.equal((html.match(/<details[^>]*\sopen(?:\s|=|>)/g) || []).length, 0, "Long-form notes must start collapsed");
   assert.match(html, /href="#opportunities-heading"/);
-  assert.match(html, /class="jobs-mobile-status">Manual snapshot · scan off/);
+  assert.match(html, /class="jobs-mobile-status">Daily check · 9 AM PT/);
+  assert.match(html, /class="jobs-workspace-icon" aria-hidden="true"><svg viewBox="0 0 24 24"/);
+  assert.match(html, /id="archive"/);
+  if (listings.some((job) => job.status === "closed")) assert.match(html, /Original posting \(may be unavailable\)/);
+  assert.match(html, /Recent availability checks/);
+  const archiveStart = html.indexOf('id="archive"');
+  for (const job of listings.filter((item) => item.status === "closed")) {
+    assert.ok(html.indexOf(`id="job-${job.sourceId}"`) > archiveStart, "Closed roles belong only in the archive");
+  }
   for (const company of companies) {
     assert.ok(html.includes(`src="../assets/companies/${logos[company.id]}"`), `Logo missing for ${company.id}`);
   }

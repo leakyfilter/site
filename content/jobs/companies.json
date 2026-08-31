@@ -3,7 +3,7 @@
     "id": "openai",
     "name": "OpenAI",
     "selection": "requested",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://openai.com/careers/",
     "source": { "type": "ashby", "board": "openai", "url": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true" },
     "funding": { "summary": "Requested AI research and deployment company. Latest funding and runway diligence not performed for this snapshot.", "sourceUrl": "https://openai.com/careers/software-engineer-inference-performance-optimization-san-francisco/", "sourceLabel": "Company role description", "checkedAt": "2026-08-31" }
@@ -12,16 +12,16 @@
     "id": "anthropic",
     "name": "Anthropic",
     "selection": "requested",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://www.anthropic.com/careers/jobs",
-    "source": { "type": "careers", "url": "https://www.anthropic.com/careers/jobs" },
+    "source": { "type": "greenhouse", "board": "anthropic", "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true" },
     "funding": { "summary": "Requested AI research company. Latest funding and runway diligence not performed for this snapshot.", "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5224564008", "sourceLabel": "Company role description", "checkedAt": "2026-08-31" }
   },
   {
     "id": "cohere",
     "name": "Cohere",
     "selection": "requested",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://cohere.com/careers",
     "source": { "type": "ashby", "board": "cohere", "url": "https://api.ashbyhq.com/posting-api/job-board/cohere?includeCompensation=true" },
     "funding": { "summary": "Requested enterprise AI company. Latest funding and runway diligence not performed for this snapshot.", "sourceUrl": "https://jobs.ashbyhq.com/cohere/2a989030-6d14-4924-88c1-d878911e26fa", "sourceLabel": "Company role description", "checkedAt": "2026-08-31" }
@@ -30,16 +30,16 @@
     "id": "google",
     "name": "Google",
     "selection": "requested",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://www.google.com/about/careers/applications/jobs/results/",
     "source": { "type": "careers", "url": "https://www.google.com/about/careers/applications/jobs/results/" },
-    "funding": { "summary": "Larger-company option, not a startup. Assess the specific team's autonomy, iteration speed, and scope.", "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/99053601367696070-senior-performance-codesign-engineer-tpu", "sourceLabel": "Google Careers", "checkedAt": "2026-08-31" }
+    "funding": { "summary": "Larger-company option, not a startup. Assess the specific team's autonomy, iteration speed, and scope.", "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/", "sourceLabel": "Google Careers", "checkedAt": "2026-08-31" }
   },
   {
     "id": "physicalintelligence",
     "name": "Physical Intelligence",
     "selection": "proposed",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://jobs.ashbyhq.com/physicalintelligence",
     "source": { "type": "ashby", "board": "physicalintelligence", "url": "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence?includeCompensation=true" },
     "funding": { "summary": "$600M round reported November 2025; financial diligence pending.", "sourceUrl": "https://www.axios.com/2025/11/21/robots-physical-intelligence-ai", "sourceLabel": "Axios · Nov 21, 2025", "checkedAt": "2026-08-31" }
@@ -48,7 +48,7 @@
     "id": "bedrock-robotics",
     "name": "Bedrock Robotics",
     "selection": "proposed",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://jobs.ashbyhq.com/bedrock-robotics",
     "source": { "type": "ashby", "board": "bedrock-robotics", "url": "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true" },
     "funding": { "summary": "$270M Series B announced February 2026; over $350M total at that announcement.", "sourceUrl": "https://www.prnewswire.com/news-releases/bedrock-robotics-raises-270-million-in-series-b-funding-to-accelerate-the-future-of-autonomous-construction-302679014.html", "sourceLabel": "Company release · Feb 4, 2026", "checkedAt": "2026-08-31" }
@@ -57,7 +57,7 @@
     "id": "modal",
     "name": "Modal",
     "selection": "requested",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://modal.com/company",
     "source": { "type": "ashby", "board": "modal", "url": "https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true" },
     "funding": { "summary": "$355M Series C announced May 2026.", "sourceUrl": "https://modal.com/blog/modal-series-c", "sourceLabel": "Company announcement · May 21, 2026", "checkedAt": "2026-08-31" }
@@ -66,7 +66,7 @@
     "id": "baseten",
     "name": "Baseten",
     "selection": "requested",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://www.baseten.co/resources/careers/",
     "source": { "type": "ashby", "board": "baseten", "url": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true" },
     "funding": { "summary": "Current employer listing reports a $1.5B Series F; later-stage option.", "sourceUrl": "https://jobs.ashbyhq.com/baseten/d29e748c-7209-460d-a024-8f77ae0a3d4d", "sourceLabel": "Employer listing · checked Aug 31, 2026", "checkedAt": "2026-08-31" }
@@ -75,7 +75,7 @@
     "id": "etched",
     "name": "Etched",
     "selection": "proposed",
-    "monitorEnabled": false,
+    "monitorEnabled": true,
     "careersUrl": "https://jobs.ashbyhq.com/etched",
     "source": { "type": "ashby", "board": "etched", "url": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true" },
     "funding": { "summary": "Employer reports hundreds of millions in backing; exact latest round not independently verified.", "sourceUrl": "https://jobs.ashbyhq.com/etched/69e75a95-6476-452d-bb41-86ac7ce52a98", "sourceLabel": "Employer listing · checked Aug 31, 2026", "checkedAt": "2026-08-31" }
