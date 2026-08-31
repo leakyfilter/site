@@ -11,8 +11,8 @@
     <link rel="icon" type="image/png" href="../assets/favicon.png" />
     <link rel="stylesheet" href="./jobs.css" />
     <script>
-      try { document.documentElement.dataset.theme = localStorage.getItem("leaky-theme") || "dark"; }
-      catch { document.documentElement.dataset.theme = "dark"; }
+      try { document.documentElement.dataset.theme = localStorage.getItem("jobs-theme") === "dark" ? "dark" : "light"; }
+      catch { document.documentElement.dataset.theme = "light"; }
     </script>
   </head>
   <body>

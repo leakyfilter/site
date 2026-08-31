@@ -1,0 +1,11 @@
+{
+  "openai": "openai.png",
+  "anthropic": "anthropic.png",
+  "cohere": "cohere.png",
+  "google": "google.png",
+  "physicalintelligence": "physicalintelligence.png",
+  "bedrock-robotics": "bedrock-robotics.svg",
+  "modal": "modal.svg",
+  "baseten": "baseten.png",
+  "etched": "etched.png"
+}

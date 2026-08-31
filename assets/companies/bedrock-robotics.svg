@@ -1,0 +1,21 @@
+<svg enable-background="new 0 0 500 500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+<style>
+  rect {
+    fill: #8C8073;
+  }
+  path {
+    fill: #F0EBE5;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    rect {
+      fill: #F0EBE5;
+    }
+    path {
+      fill: #8C8073;
+    }
+  }
+</style>
+<rect width="500" height="500" fill="#8C8073"/>
+<path d="M321.318 302.117H178.535L226.105 231.24H273.748L321.318 302.117ZM52 302.117V400.051H112.878L178.608 302.117H52ZM448 302.117H321.392L387.122 400.051H448V302.117ZM273.822 100H226.178L178.608 170.877H321.392L273.822 100ZM52 170.877V268.811H112.878L178.608 170.877H52ZM448 170.877H321.392L387.122 268.811H448V170.877Z" fill="#F0EBE5"/>
+</svg>
