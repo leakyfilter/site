@@ -5,6 +5,16 @@ const { normalizeFeed, candidateScore, googleLinks, inspectGooglePage, applyObse
 const root = path.resolve(__dirname, "..");
 const googleQueries = ["performance co-design", "inference performance", "ML compiler", "on-device machine learning"];
 
+function dateForTimeZone(date, timeZone = "America/Los_Angeles") {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date).filter(({ type }) => type !== "literal").map(({ type, value }) => [type, value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
 async function fetchText(url) {
   const response = await fetch(url, { signal: AbortSignal.timeout(30000), headers: { Accept: "application/json,text/html" } });
   if (!response.ok) throw new Error(`Employer returned HTTP ${response.status}; availability not inferred.`);
@@ -15,7 +25,7 @@ async function fetchText(url) {
 
 async function runCheck({ companies, listings, fetchPage = fetchText, now = new Date() }) {
   const checkedAt = now.toISOString();
-  const date = checkedAt.slice(0, 10);
+  const date = dateForTimeZone(now);
   const report = { checkedAt, outcome: "complete", companyChecks: [], observations: [], candidates: [], discoveryNotes: [] };
   const known = new Set(listings.map((job) => `${job.companyId}:${job.sourceId}`));
   for (const company of companies.filter((item) => item.monitorEnabled)) {
@@ -89,4 +99,4 @@ async function main() {
 }
 
 if (require.main === module) main().catch((error) => { console.error(error); process.exitCode = 1; });
-module.exports = { runCheck, fetchText };
+module.exports = { runCheck, fetchText, dateForTimeZone };

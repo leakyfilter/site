@@ -3,7 +3,7 @@
 ## Current scope
 
 - A separate static React entry point, not a homepage route or import.
-- Initially 12 curated listings across 9 companies. The first daily-checker pass on August 31, 2026 added four roles and archived the unavailable original Google role: 15 active, 1 archived.
+- Initially 12 curated listings across 9 companies. Two focused expansion passes on August 31, 2026 brought the board to 23 active roles and 1 archived role, with deeper coverage of inference/runtime and hardware/software co-design.
 - Requested: OpenAI, Anthropic, Cohere, Modal, Baseten, Google.
 - Proposed additions: Physical Intelligence, Bedrock Robotics, Etched.
 - Positioning and the approved decision framework saved in `docs/career-direction.md`.

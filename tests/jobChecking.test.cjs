@@ -1,13 +1,18 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { applyObservation, normalizeFeed, candidateScore, inspectGooglePage, googleLinks } = require("../lib/jobChecking.js");
-const { runCheck } = require("../scripts/check-jobs.cjs");
+const { runCheck, dateForTimeZone } = require("../scripts/check-jobs.cjs");
 const { filterJobs } = require("../lib/jobBoard.js");
 
 const company = { id: "modal", name: "Modal", monitorEnabled: true, source: { type: "ashby", board: "modal", url: "https://api.ashbyhq.com/posting-api/job-board/modal" } };
 const job = { id: "modal:one", sourceId: "one", companyId: "modal", title: "Inference Engineer", status: "open", lastVerifiedAt: "2026-08-30", firstSeenAt: "2026-08-30", skills: [], track: "inference", priority: 1 };
 const observation = (outcome, date = "2026-08-31") => ({ outcome, date, sourceUrl: company.source.url, detail: `Verified observation: ${outcome}` });
 const feedJob = { id: "one", title: "Inference Engineer", jobUrl: "https://jobs.ashbyhq.com/modal/one", descriptionPlain: "GPU runtime and memory optimization", isListed: true };
+
+test("daily observations use the board's Pacific date across the UTC boundary", () => {
+  assert.equal(dateForTimeZone(new Date("2026-09-01T02:29:00Z")), "2026-08-31");
+  assert.equal(dateForTimeZone(new Date("2026-09-01T16:00:00Z")), "2026-09-01");
+});
 
 test("a single absence, failed checks, and same-day retries cannot archive an active role", () => {
   const missing = applyObservation(job, observation("missing"));

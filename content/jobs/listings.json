@@ -656,5 +656,337 @@
     ],
     "archivedAt": null,
     "archiveReason": null
+  },
+  {
+    "id": "openai:3fe77c71-1f20-45b5-8291-62f0d2104989",
+    "sourceId": "3fe77c71-1f20-45b5-8291-62f0d2104989",
+    "companyId": "openai",
+    "title": "System Performance Engineer, Consumer Devices",
+    "track": "codesign",
+    "priority": 1,
+    "location": "San Francisco",
+    "workplace": "Hybrid · 4 days/week in office",
+    "salary": "$293K–$325K USD / year + equity",
+    "level": "Deep embedded/high-performance systems experience expected",
+    "summary": "Profile and optimize AI-powered embedded devices across operating systems, applications, camera and vision, graphics, memory, power, and thermal constraints.",
+    "fit": "The closest transfer of your whole-system perf/watt work into a new consumer-device and embedded-product domain.",
+    "stretch": "Shipping embedded products, OS-level debugging, media and graphics stacks, and field performance.",
+    "watchFor": "The role expects shipped embedded or real-time systems and strong OS implementation experience. Confirm how much ownership sits in the ML runtime.",
+    "skills": [
+      "C / C++",
+      "Python or Rust",
+      "Embedded systems",
+      "Power / thermal performance",
+      "OS profiling"
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/3fe77c71-1f20-45b5-8291-62f0d2104989",
+    "sourcePublishedAt": "2026-06-15",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "openai:bdbb2292-ecb3-42dc-ba89-65edf397d8f8",
+    "sourceId": "bdbb2292-ecb3-42dc-ba89-65edf397d8f8",
+    "companyId": "openai",
+    "title": "Hardware / Software CoDesign Engineer  - 3P",
+    "track": "codesign",
+    "priority": 1,
+    "location": "San Francisco / Seattle",
+    "workplace": "Hybrid · 3 days/week in office",
+    "salary": "$342K–$555K USD / year + equity",
+    "level": "4+ years · strong accelerator co-design expected",
+    "summary": "Co-design future accelerators with hardware vendors, translating LLM workloads, kernels, compilers, memory hierarchy, and network bottlenecks into roadmap decisions.",
+    "fit": "Uses your cross-domain optimization and ECE background directly, but at accelerator and rack scale rather than power budgeting.",
+    "stretch": "CUDA or Triton kernels, low-precision model accuracy, compiler constraints, and vendor-facing architecture influence.",
+    "watchFor": "Strong accelerator programming and C/C++ experience are explicit requirements. Validate how much ramp-up is possible versus expected on day one.",
+    "skills": [
+      "C / C++",
+      "Python",
+      "CUDA / Triton",
+      "Performance modeling",
+      "Accelerator architecture",
+      "Low precision"
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/bdbb2292-ecb3-42dc-ba89-65edf397d8f8",
+    "sourcePublishedAt": "2026-03-21",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "google:108528442567205574",
+    "sourceId": "108528442567205574",
+    "companyId": "google",
+    "title": "Software Engineer, Accelerators Software/Hardware Co design, DeepMind",
+    "track": "codesign",
+    "priority": 1,
+    "location": "Mountain View, CA / San Francisco, CA",
+    "workplace": "Not specified in listing",
+    "salary": "$174K–$252K USD / year + 15% bonus target + equity",
+    "level": "ML accelerator and inference software experience · 2 years co-design preferred",
+    "summary": "Prototype next-generation inference platforms spanning memory technology, accelerators, kernels, and software/hardware co-design, then feed benchmarks into the roadmap.",
+    "fit": "A rare co-design role calibrated near your experience level and centered on inference performance.",
+    "stretch": "Hands-on Python/C++ prototype implementation and kernel optimization on TPU or GPU-class accelerators.",
+    "watchFor": "The listing expects existing inference software and accelerator coding experience. Confirm whether architecture and optimization work can substitute for direct kernel delivery.",
+    "skills": [
+      "Python",
+      "C++",
+      "ML accelerators",
+      "Inference software",
+      "Kernel optimization",
+      "Benchmarking"
+    ],
+    "url": "https://www.google.com/about/careers/applications/jobs/results/108528442567205574-software-engineer-accelerators-softwarehardware-co-design-deepmind",
+    "sourcePublishedAt": null,
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Matching Google Careers role page with qualifications and an application link.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/108528442567205574-software-engineer-accelerators-softwarehardware-co-design-deepmind",
+        "detail": "Matching Google Careers role page with qualifications and an application link."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "etched:610c3836-9798-46ea-931a-02bb95b29467",
+    "sourceId": "610c3836-9798-46ea-931a-02bb95b29467",
+    "companyId": "etched",
+    "title": "Software Engineer – Performance Profiling",
+    "track": "codesign",
+    "priority": 1,
+    "location": "San Jose",
+    "workplace": "On-site",
+    "salary": "$150K–$275K USD / year + equity",
+    "level": "Strong low-level performance analysis and systems implementation",
+    "summary": "Create the performance-analysis stack for a custom inference accelerator, correlating CPU, driver, PCIe, memory, multi-chip, and device-counter behavior.",
+    "fit": "Directly rewards cross-component bottleneck analysis while moving you into hands-on tooling for novel inference hardware.",
+    "stretch": "C++ or Rust profiler implementation, driver interfaces, timestamp correlation, and low-level performance counters.",
+    "watchFor": "The role expects proven performance-tool development close to hardware. Confirm the balance between analysis and architecture versus systems implementation.",
+    "skills": [
+      "C++ / Rust",
+      "Hardware counters",
+      "Profiling tools",
+      "PCIe",
+      "Memory hierarchy",
+      "Driver interfaces"
+    ],
+    "url": "https://jobs.ashbyhq.com/etched/610c3836-9798-46ea-931a-02bb95b29467",
+    "sourcePublishedAt": "2026-01-18",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "openai:19fc3e36-3bf3-4a7c-b65f-498d89220436",
+    "sourceId": "19fc3e36-3bf3-4a7c-b65f-498d89220436",
+    "companyId": "openai",
+    "title": "Performance Modeling Engineer",
+    "track": "codesign",
+    "priority": 2,
+    "location": "San Francisco / Seattle",
+    "workplace": "Hybrid",
+    "salary": "$293K–$385K USD / year + equity",
+    "level": "Strong software or systems-modeling background",
+    "summary": "Build and validate models across compute, memory, interconnects, storage, and distributed scaling to inform next-generation AI infrastructure and vendor decisions.",
+    "fit": "A high-confidence bridge from runtime power/performance modeling into full-system AI architecture.",
+    "stretch": "Datacenter-scale interconnect, storage, distributed scaling, and vendor design decisions.",
+    "watchFor": "Because modeling is adjacent to your current strength, confirm that the role offers enough implementation and new architecture ownership.",
+    "skills": [
+      "Performance modeling",
+      "Simulation",
+      "Compute / memory systems",
+      "Interconnects",
+      "Benchmark validation"
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/19fc3e36-3bf3-4a7c-b65f-498d89220436",
+    "sourcePublishedAt": "2026-04-20",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "anthropic:4926227008",
+    "sourceId": "4926227008",
+    "companyId": "anthropic",
+    "title": "Performance Engineer, GPU",
+    "track": "inference",
+    "priority": 2,
+    "location": "San Francisco / New York City / Seattle",
+    "workplace": "Hybrid · at least 25% in office; role may require more",
+    "salary": "$280K–$850K USD / year (published range)",
+    "level": "Level calibrated to experience · deep production GPU expertise",
+    "summary": "Drive Claude GPU utilization across kernels, compilers, low precision, distributed communication, and production training and inference systems.",
+    "fit": "Whole-stack accelerator performance is highly aligned with your architecture intuition and gives a path into production inference.",
+    "stretch": "Hands-on CUDA or Triton kernel delivery, NCCL-scale distributed systems, PyTorch or JAX internals, and proven production improvements.",
+    "watchFor": "This listing asks for deep GPU programming and optimization at scale. Treat it as ambitious unless your implementation record matches that bar.",
+    "skills": [
+      "CUDA / Triton",
+      "GPU kernels",
+      "NCCL / NVLink",
+      "PyTorch / JAX",
+      "Low precision",
+      "Profiling"
+    ],
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4926227008",
+    "sourcePublishedAt": "2025-09-22",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "baseten:c8701794-bdc1-4932-bffa-a444ce57ed73",
+    "sourceId": "c8701794-bdc1-4932-bffa-a444ce57ed73",
+    "companyId": "baseten",
+    "title": "Software Engineer - Baseten Inference Stack",
+    "track": "inference",
+    "priority": 2,
+    "location": "San Francisco / Toronto / New York / Montreal",
+    "workplace": "Hybrid",
+    "salary": "$180K–$360K USD / year + equity",
+    "level": "Production distributed/backend systems experience",
+    "summary": "Build the distributed runtime behind large-scale LLM inference, spanning routing, autoscaling, scheduling, observability, deployment orchestration, and model features.",
+    "fit": "Moves your resource-allocation instincts into an inference runtime where workload placement and performance are product behavior.",
+    "stretch": "Production distributed systems, Kubernetes, networking, on-call reliability, and customer-facing infrastructure.",
+    "watchFor": "Inference experience can be learned, but the role expects production backend or platform ownership. Clarify how your architecture background maps to that bar.",
+    "skills": [
+      "Distributed systems",
+      "Kubernetes",
+      "Scheduling / autoscaling",
+      "GPU workloads",
+      "Inference runtimes"
+    ],
+    "url": "https://jobs.ashbyhq.com/baseten/c8701794-bdc1-4932-bffa-a444ce57ed73",
+    "sourcePublishedAt": "2026-06-02",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "id": "openai:e9627fa6-ac76-4899-9a93-9251419e61a0",
+    "sourceId": "e9627fa6-ac76-4899-9a93-9251419e61a0",
+    "companyId": "openai",
+    "title": "Software Engineer, Kernel Performance & AI Tooling",
+    "track": "codesign",
+    "priority": 3,
+    "location": "San Francisco",
+    "workplace": "Hybrid",
+    "salary": "$266K–$445K USD / year + equity",
+    "level": "Deep kernel, accelerator, and systems-tooling experience expected",
+    "summary": "Build AI-assisted workflows, observability, evaluations, and developer tooling that accelerate production kernel optimization and hardware/software co-design.",
+    "fit": "A distinctive ML-for-systems direction that combines learned optimization with hardware performance.",
+    "stretch": "Hands-on production kernels, compiler or DSL systems, AI-agent research workflows, and low-level tooling.",
+    "watchFor": "The preferred profile has real kernel and accelerator depth. Keep this a stretch unless your implementation experience is stronger than the saved profile shows.",
+    "skills": [
+      "Kernel optimization",
+      "Developer tooling",
+      "Profiling",
+      "AI-assisted systems",
+      "Compilers / DSLs"
+    ],
+    "url": "https://jobs.ashbyhq.com/openai/e9627fa6-ac76-4899-9a93-9251419e61a0",
+    "sourcePublishedAt": "2026-04-17",
+    "firstSeenAt": "2026-08-31",
+    "lastVerifiedAt": "2026-08-31",
+    "status": "open",
+    "verification": "Present in the employer's current published-jobs feed.",
+    "lastCheckedAt": "2026-08-31",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-08-31",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   }
 ]
