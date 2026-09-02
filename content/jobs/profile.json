@@ -26,7 +26,7 @@
   ],
   "scan": {
     "enabled": true,
-    "lastRunAt": "2026-09-01T16:01:18.830Z",
+    "lastRunAt": "2026-09-02T16:02:35.785Z",
     "note": "Daily checks cover all nine companies, review relevant new openings, recheck saved roles, and archive confirmed closures. This local schedule needs the Mac and app running; the board reflects the last published check.",
     "scheduleLabel": "Daily check · 9 AM PT",
     "timezone": "America/Los_Angeles",
@@ -35,64 +35,64 @@
       {
         "companyId": "openai",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
-        "jobCount": 767,
+        "checkedAt": "2026-09-02T16:02:35.785Z",
+        "jobCount": 766,
         "detail": "Complete published-jobs feed checked."
       },
       {
         "companyId": "anthropic",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
-        "jobCount": 576,
+        "checkedAt": "2026-09-02T16:02:35.785Z",
+        "jobCount": 579,
         "detail": "Complete published-jobs feed checked."
       },
       {
         "companyId": "cohere",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
-        "jobCount": 145,
+        "checkedAt": "2026-09-02T16:02:35.785Z",
+        "jobCount": 133,
         "detail": "Complete published-jobs feed checked."
       },
       {
         "companyId": "google",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
-        "jobCount": 136,
+        "checkedAt": "2026-09-02T16:02:35.785Z",
+        "jobCount": 138,
         "detail": "All 3 saved roles checked individually; discovery covers the two newest result pages for each of four relevant searches, not Google's entire board."
       },
       {
         "companyId": "physicalintelligence",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
+        "checkedAt": "2026-09-02T16:02:35.785Z",
         "jobCount": 34,
         "detail": "Complete published-jobs feed checked."
       },
       {
         "companyId": "bedrock-robotics",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
-        "jobCount": 34,
+        "checkedAt": "2026-09-02T16:02:35.785Z",
+        "jobCount": 33,
         "detail": "Complete published-jobs feed checked."
       },
       {
         "companyId": "modal",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
+        "checkedAt": "2026-09-02T16:02:35.785Z",
         "jobCount": 31,
         "detail": "Complete published-jobs feed checked."
       },
       {
         "companyId": "baseten",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
-        "jobCount": 82,
+        "checkedAt": "2026-09-02T16:02:35.785Z",
+        "jobCount": 84,
         "detail": "Complete published-jobs feed checked."
       },
       {
         "companyId": "etched",
         "status": "complete",
-        "checkedAt": "2026-09-01T16:01:18.830Z",
-        "jobCount": 109,
+        "checkedAt": "2026-09-02T16:02:35.785Z",
+        "jobCount": 108,
         "detail": "Complete published-jobs feed checked."
       }
     ]
