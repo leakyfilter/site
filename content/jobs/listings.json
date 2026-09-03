@@ -24,10 +24,10 @@
     "url": "https://openai.com/careers/software-engineer-inference-performance-optimization-san-francisco/",
     "sourcePublishedAt": null,
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -44,6 +44,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -77,10 +83,10 @@
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5224564008",
     "sourcePublishedAt": null,
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -97,6 +103,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -130,10 +142,10 @@
     "url": "https://jobs.ashbyhq.com/cohere/2a989030-6d14-4924-88c1-d878911e26fa",
     "sourcePublishedAt": "2025-11-07",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -150,6 +162,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/cohere?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/cohere?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -186,7 +204,7 @@
     "lastVerifiedAt": "2026-08-31",
     "status": "closed",
     "verification": "Google Careers role details with Apply action",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "closed",
     "availabilityHistory": [
       {
@@ -203,6 +221,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "closed",
+        "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/99053601367696070-senior-performance-codesign-engineer-tpu",
+        "detail": "Google Careers explicitly says: Job not found. This job may have been taken down."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "closed",
         "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/99053601367696070-senior-performance-codesign-engineer-tpu",
         "detail": "Google Careers explicitly says: Job not found. This job may have been taken down."
@@ -236,10 +260,10 @@
     "url": "https://jobs.ashbyhq.com/physicalintelligence/1e8a741a-d415-4c34-9ac8-eda4c5393e41",
     "sourcePublishedAt": "2026-06-08",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -256,6 +280,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -289,10 +319,10 @@
     "url": "https://jobs.ashbyhq.com/bedrock-robotics/1871fdc6-6eba-4397-8725-c4e5c036ab54",
     "sourcePublishedAt": "2025-07-16",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -309,6 +339,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -342,10 +378,10 @@
     "url": "https://jobs.ashbyhq.com/modal/af17da5e-23ca-4802-854d-5f0546e1ed32",
     "sourcePublishedAt": "2026-04-21",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -362,6 +398,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -395,10 +437,10 @@
     "url": "https://jobs.ashbyhq.com/baseten/d29e748c-7209-460d-a024-8f77ae0a3d4d",
     "sourcePublishedAt": "2024-03-28",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -415,6 +457,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -448,10 +496,10 @@
     "url": "https://jobs.ashbyhq.com/etched/0f9c0162-97c6-4be6-9cb7-d9afdcf0fa7c",
     "sourcePublishedAt": "2025-06-17",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -468,6 +516,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -500,10 +554,10 @@
     "url": "https://jobs.ashbyhq.com/etched/69e75a95-6476-452d-bb41-86ac7ce52a98",
     "sourcePublishedAt": "2026-04-21",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -520,6 +574,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -553,10 +613,10 @@
     "url": "https://jobs.ashbyhq.com/etched/b09ced5f-c81a-4fbe-a85e-ed743c991e21",
     "sourcePublishedAt": "2026-07-23",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -573,6 +633,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -606,10 +672,10 @@
     "url": "https://jobs.ashbyhq.com/modal/9b33ebe7-e829-4f03-97ba-5c94dbd7daf6",
     "sourcePublishedAt": "2024-10-23",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -626,6 +692,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -659,10 +731,10 @@
     "url": "https://jobs.ashbyhq.com/openai/3c2d1178-777f-4613-a084-75a3d37cd1af",
     "sourcePublishedAt": "2025-04-21",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -679,6 +751,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -713,10 +791,10 @@
     "url": "https://jobs.ashbyhq.com/physicalintelligence/f6bee7a7-57ae-4ec1-9276-ae3bcbdc7327",
     "sourcePublishedAt": "2026-01-06",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -733,6 +811,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -767,10 +851,10 @@
     "url": "https://jobs.ashbyhq.com/baseten/75d7beac-0298-40fa-b206-2e0c0c08a64f",
     "sourcePublishedAt": "2026-01-07",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -787,6 +871,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -821,10 +911,10 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/122537766893298374-software-engineer-hardware-accelerators-performance-geminiapp-deepmind",
     "sourcePublishedAt": null,
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Matching Google Careers role page with qualifications and an application link.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -841,6 +931,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/122537766893298374-software-engineer-hardware-accelerators-performance-geminiapp-deepmind",
+        "detail": "Matching Google Careers role page with qualifications and an application link."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/122537766893298374-software-engineer-hardware-accelerators-performance-geminiapp-deepmind",
         "detail": "Matching Google Careers role page with qualifications and an application link."
@@ -874,10 +970,10 @@
     "url": "https://jobs.ashbyhq.com/openai/3fe77c71-1f20-45b5-8291-62f0d2104989",
     "sourcePublishedAt": "2026-06-15",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -894,6 +990,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -928,10 +1030,10 @@
     "url": "https://jobs.ashbyhq.com/openai/bdbb2292-ecb3-42dc-ba89-65edf397d8f8",
     "sourcePublishedAt": "2026-03-21",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -948,6 +1050,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -982,10 +1090,10 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/108528442567205574-software-engineer-accelerators-softwarehardware-co-design-deepmind",
     "sourcePublishedAt": null,
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Matching Google Careers role page with qualifications and an application link.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -1002,6 +1110,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/108528442567205574-software-engineer-accelerators-softwarehardware-co-design-deepmind",
+        "detail": "Matching Google Careers role page with qualifications and an application link."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/108528442567205574-software-engineer-accelerators-softwarehardware-co-design-deepmind",
         "detail": "Matching Google Careers role page with qualifications and an application link."
@@ -1036,10 +1150,10 @@
     "url": "https://jobs.ashbyhq.com/etched/610c3836-9798-46ea-931a-02bb95b29467",
     "sourcePublishedAt": "2026-01-18",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -1056,6 +1170,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -1089,10 +1209,10 @@
     "url": "https://jobs.ashbyhq.com/openai/19fc3e36-3bf3-4a7c-b65f-498d89220436",
     "sourcePublishedAt": "2026-04-20",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -1109,6 +1229,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -1143,10 +1269,10 @@
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/4926227008",
     "sourcePublishedAt": "2025-09-22",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -1163,6 +1289,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -1196,10 +1328,10 @@
     "url": "https://jobs.ashbyhq.com/baseten/c8701794-bdc1-4932-bffa-a444ce57ed73",
     "sourcePublishedAt": "2026-06-02",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -1216,6 +1348,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
@@ -1249,10 +1387,10 @@
     "url": "https://jobs.ashbyhq.com/openai/e9627fa6-ac76-4899-9a93-9251419e61a0",
     "sourcePublishedAt": "2026-04-17",
     "firstSeenAt": "2026-08-31",
-    "lastVerifiedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-03",
     "status": "open",
     "verification": "Present in the employer's current published-jobs feed.",
-    "lastCheckedAt": "2026-09-02",
+    "lastCheckedAt": "2026-09-03",
     "lastCheckOutcome": "open",
     "availabilityHistory": [
       {
@@ -1269,6 +1407,12 @@
       },
       {
         "date": "2026-09-02",
+        "outcome": "open",
+        "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+        "detail": "Present in the employer's current published-jobs feed."
+      },
+      {
+        "date": "2026-09-03",
         "outcome": "open",
         "sourceUrl": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
         "detail": "Present in the employer's current published-jobs feed."
