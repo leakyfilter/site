@@ -6,6 +6,7 @@
 - Initially 12 curated listings across 9 companies. Two focused expansion passes on August 31, 2026 brought the board to 23 active roles and 1 archived role, with deeper coverage of inference/runtime and hardware/software co-design.
 - Requested: OpenAI, Anthropic, Cohere, Modal, Baseten, Google.
 - Proposed additions: Physical Intelligence, Bedrock Robotics, Etched.
+- Apple: five manually verified roles added October 6, 2026, covering ML-driven SoC architecture, AI/ML software optimization, CoreML Runtime, AI system performance, and Neural Engine performance/power. Apple is a requested company, with daily automation disabled until a reliable source adapter is available. The existing nine-company monitoring scope remains unchanged.
 - Positioning and the approved decision framework saved in `docs/career-direction.md`.
 - Direction/company/text filters, priority/publication/verification sorting, listing links, compensation, fit/stretch notes, and source dates.
 - A read-in-page reference and Markdown download.

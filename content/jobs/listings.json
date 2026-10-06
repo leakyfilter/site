@@ -2540,5 +2540,215 @@
     ],
     "archivedAt": null,
     "archiveReason": null
+  },
+  {
+    "sourceId": "200678264-0836",
+    "title": "Applied Machine Learning Engineer, Platform Architecture",
+    "track": "codesign",
+    "priority": 1,
+    "location": "Cupertino, California",
+    "salary": "$184,700–$277,600 USD / year (base)",
+    "sourcePublishedAt": "2026-08-17",
+    "level": "Level not specified; 10+ years preferred",
+    "summary": "Use ML and generative AI on workload telemetry to explore SoC architecture and optimize memory, fabric, caches, voltage/frequency controls, and power policies. Carry hardware/software improvements through real-silicon validation and shipping.",
+    "fit": "The most direct Apple match to your deep-learning-based runtime power allocation across CPU, GPU, memory, and I/O. Your performance-per-watt background transfers into broader architectural decisions and shipped changes.",
+    "stretch": "Generative AI for architectural exploration, large-scale time-series telemetry, and potentially agentic workflows and distributed model training.",
+    "watchFor": "Apple prefers 10+ years, beyond your roughly five years. Minimum requirements include production ML deployment, real-world datasets, Python, and modern deep-learning frameworks. Establish the scope for your level and whether this offers enough novelty beyond current power work.",
+    "skills": [
+      "Python",
+      "Deep learning frameworks",
+      "Production ML",
+      "SoC architecture",
+      "Time-series telemetry",
+      "Performance per watt"
+    ],
+    "id": "apple:200678264-0836",
+    "companyId": "apple",
+    "workplace": "Not specified in listing; remote eligibility not established",
+    "url": "https://jobs.apple.com/en-us/details/200678264-0836/applied-machine-learning-engineer-platform-architecture",
+    "firstSeenAt": "2026-10-06",
+    "lastVerifiedAt": "2026-10-06",
+    "status": "open",
+    "verification": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser.",
+    "lastCheckedAt": "2026-10-06",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-10-06",
+        "outcome": "open",
+        "sourceUrl": "https://jobs.apple.com/en-us/details/200678264-0836/applied-machine-learning-engineer-platform-architecture",
+        "detail": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "sourceId": "200687019-0836",
+    "title": "SW Optimization Engineer AI/ML",
+    "track": "codesign",
+    "priority": 1,
+    "location": "Cupertino, California | Seattle, Washington",
+    "salary": "$184,700–$324,800 USD / year (base)",
+    "sourcePublishedAt": "2026-10-02",
+    "level": "Level not specified; 10+ years preferred",
+    "summary": "Implement efficient ML workloads on Apple CPU, GPU, and Neural Engine; analyze bottlenecks, model architecture tradeoffs, and improve performance tools, libraries, and future silicon.",
+    "fit": "A strong bridge from heterogeneous-system efficiency into hands-on ML execution and hardware/software co-design, with both software improvements and architecture influence.",
+    "stretch": "Apple Silicon programming, efficient low-level implementations, C/C++, and profiling ML workloads across CPU, GPU, and Neural Engine.",
+    "watchFor": "Software development for an accelerator, GPU, encoder, or similar IP is a minimum requirement; NVIDIA employment alone does not establish it. Apple prefers 10+ years of relevant optimization experience. Confirm level flexibility and the balance of implementation versus advisory work.",
+    "skills": [
+      "Accelerator software",
+      "ML performance benchmarks",
+      "C/C++",
+      "Python",
+      "PyTorch",
+      "Performance modeling"
+    ],
+    "id": "apple:200687019-0836",
+    "companyId": "apple",
+    "workplace": "Not specified in listing; remote eligibility not established",
+    "url": "https://jobs.apple.com/en-us/details/200687019-0836/sw-optimization-engineer-ai-ml",
+    "firstSeenAt": "2026-10-06",
+    "lastVerifiedAt": "2026-10-06",
+    "status": "open",
+    "verification": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser.",
+    "lastCheckedAt": "2026-10-06",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-10-06",
+        "outcome": "open",
+        "sourceUrl": "https://jobs.apple.com/en-us/details/200687019-0836/sw-optimization-engineer-ai-ml",
+        "detail": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "sourceId": "200687246-0836",
+    "title": "On-Device ML Infrastructure Engineer (CoreML Runtime), Graphics, Games and Machine Learning",
+    "track": "inference",
+    "priority": 2,
+    "location": "Cupertino, California",
+    "salary": "$184,700–$324,800 USD / year (base)",
+    "sourcePublishedAt": "2026-10-05",
+    "level": "Level not specified",
+    "summary": "Build and maintain the on-device Core ML graph compiler, runtime, and operator kernels. Optimize model execution for performance, energy efficiency, and thermal constraints on Apple Silicon.",
+    "fit": "The clearest move toward owning an inference runtime. Hardware-aware efficiency reasoning transfers directly to execution decisions on resource-constrained devices.",
+    "stretch": "Production graph compilation, runtime and kernel development, compiler stacks, and C++ or Swift systems programming.",
+    "watchFor": "Highly proficient C++ or Swift and experience with a compiler stack such as MLIR, LLVM, or TVM are minimum requirements. Those skills are not established by your profile; treat this as an implementation stretch and assess readiness before applying.",
+    "skills": [
+      "C++ or Swift",
+      "Python",
+      "MLIR / LLVM / TVM",
+      "Operating systems",
+      "Parallel programming",
+      "Transformers"
+    ],
+    "id": "apple:200687246-0836",
+    "companyId": "apple",
+    "workplace": "Not specified in listing; remote eligibility not established",
+    "url": "https://jobs.apple.com/en-us/details/200687246-0836/on-device-ml-infrastructure-engineer-coreml-runtime-graphics-games-and-machine-learning",
+    "firstSeenAt": "2026-10-06",
+    "lastVerifiedAt": "2026-10-06",
+    "status": "open",
+    "verification": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser.",
+    "lastCheckedAt": "2026-10-06",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-10-06",
+        "outcome": "open",
+        "sourceUrl": "https://jobs.apple.com/en-us/details/200687246-0836/on-device-ml-infrastructure-engineer-coreml-runtime-graphics-games-and-machine-learning",
+        "detail": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "sourceId": "200676695-3760",
+    "title": "System Performance Engineer - AI/ML, Platform Architecture",
+    "track": "codesign",
+    "priority": 2,
+    "location": "Santa Clara, California",
+    "salary": "$184,700–$324,800 USD / year (base)",
+    "sourcePublishedAt": "2026-08-13",
+    "level": "Level not specified; 10+ years preferred",
+    "summary": "Define representative AI workloads and metrics, design experiments across devices, and explain CPU, GPU, Neural Engine, memory, OS, power, and thermal bottlenecks to guide product decisions.",
+    "fit": "Strong transfer of your cross-component performance and power reasoning into AI workload analysis and product architecture.",
+    "stretch": "Broader AI benchmarking, hardware-specific inference stacks, automated experiments, and communicating system-level findings to executive audiences.",
+    "watchFor": "The role centers on benchmarking and insights rather than owning a runtime subsystem; assess whether that meets your desired software ownership. Profiling-tool and AI workload/framework experience are minimum requirements, and 10+ years is preferred.",
+    "skills": [
+      "Performance profiling",
+      "AI benchmarking",
+      "PyTorch / TensorFlow",
+      "TensorRT / CUDA / OpenVINO",
+      "Python",
+      "Power and thermal analysis"
+    ],
+    "id": "apple:200676695-3760",
+    "companyId": "apple",
+    "workplace": "Not specified in listing; remote eligibility not established",
+    "url": "https://jobs.apple.com/en-us/details/200676695-3760/system-performance-engineer-ai-ml-platform-architecture",
+    "firstSeenAt": "2026-10-06",
+    "lastVerifiedAt": "2026-10-06",
+    "status": "open",
+    "verification": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser.",
+    "lastCheckedAt": "2026-10-06",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-10-06",
+        "outcome": "open",
+        "sourceUrl": "https://jobs.apple.com/en-us/details/200676695-3760/system-performance-engineer-ai-ml-platform-architecture",
+        "detail": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
+  },
+  {
+    "sourceId": "200684874-3956",
+    "title": "Apple Neural Engine Performance and Power Engineer",
+    "track": "inference",
+    "priority": 3,
+    "location": "Sunnyvale, California",
+    "salary": "$184,700–$324,800 USD / year (base)",
+    "sourcePublishedAt": "2026-09-24",
+    "level": "Minimum 10 years of system performance analysis experience",
+    "summary": "Optimize end-to-end AI performance and energy efficiency in the Neural Engine software team, resolve hardware/software bottlenecks, build profiling tools, and develop performance and power tests.",
+    "fit": "Very close technical alignment with your performance-per-watt and power-architecture background, applied to on-device generative AI execution.",
+    "stretch": "Neural Engine software, generative-model performance characteristics, software profiling, and implementation of accelerator optimizations.",
+    "watchFor": "Apple explicitly requires at least 10 years of system performance analysis, versus your roughly five years. Keep as a lower-priority seniority stretch or a team to seek a suitably leveled opening in. Excellent C or Python programming is also required.",
+    "skills": [
+      "C or Python",
+      "System performance analysis",
+      "Power architecture",
+      "Profiling",
+      "Hardware acceleration",
+      "Transformer / diffusion models"
+    ],
+    "id": "apple:200684874-3956",
+    "companyId": "apple",
+    "workplace": "Not specified in listing; remote eligibility not established",
+    "url": "https://jobs.apple.com/en-us/details/200684874-3956/apple-neural-engine-performance-and-power-engineer",
+    "firstSeenAt": "2026-10-06",
+    "lastVerifiedAt": "2026-10-06",
+    "status": "open",
+    "verification": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser.",
+    "lastCheckedAt": "2026-10-06",
+    "lastCheckOutcome": "open",
+    "availabilityHistory": [
+      {
+        "date": "2026-10-06",
+        "outcome": "open",
+        "sourceUrl": "https://jobs.apple.com/en-us/details/200684874-3956/apple-neural-engine-performance-and-power-engineer",
+        "detail": "Matching live Apple Careers role number, full description, qualifications, and Submit Resume link verified in browser."
+      }
+    ],
+    "archivedAt": null,
+    "archiveReason": null
   }
 ]

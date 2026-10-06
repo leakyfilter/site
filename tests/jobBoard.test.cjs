@@ -23,8 +23,9 @@ test("all six requested companies have a starter listing and daily monitoring is
   assert.equal(profile.scan.enabled, true);
   assert.ok(Number.isFinite(Date.parse(profile.scan.lastRunAt)));
   assert.equal(profile.scan.scheduleLabel, "Daily check · 9 AM PT");
-  assert.ok(companies.every((company) => company.monitorEnabled === true));
-  assert.equal(profile.scan.companyChecks.length, companies.length);
+  const monitored = companies.filter((company) => company.monitorEnabled);
+  assert.deepEqual(profile.scan.companyChecks.map((check) => check.companyId).sort(), monitored.map((company) => company.id).sort());
+  assert.equal(companies.find((company) => company.id === "apple").monitorEnabled, false);
 });
 
 test("the approved positioning is preserved in the reference and board", () => {

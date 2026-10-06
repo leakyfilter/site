@@ -79,5 +79,22 @@
     "careersUrl": "https://jobs.ashbyhq.com/etched",
     "source": { "type": "ashby", "board": "etched", "url": "https://api.ashbyhq.com/posting-api/job-board/etched?includeCompensation=true" },
     "funding": { "summary": "Employer reports hundreds of millions in backing; exact latest round not independently verified.", "sourceUrl": "https://jobs.ashbyhq.com/etched/69e75a95-6476-452d-bb41-86ac7ce52a98", "sourceLabel": "Employer listing · checked Aug 31, 2026", "checkedAt": "2026-08-31" }
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "selection": "requested",
+    "monitorEnabled": false,
+    "careersUrl": "https://jobs.apple.com/en-us/search",
+    "source": {
+      "type": "careers",
+      "url": "https://jobs.apple.com/en-us/search"
+    },
+    "funding": {
+      "summary": "Larger-company option. Assess team autonomy and implementation ownership. Apple roles were manually verified October 6, 2026; automated daily checks are not enabled for Apple.",
+      "sourceUrl": "https://jobs.apple.com/en-us/search",
+      "sourceLabel": "Apple Careers",
+      "checkedAt": "2026-10-06"
+    }
   }
 ]

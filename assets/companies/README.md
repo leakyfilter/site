@@ -13,5 +13,6 @@ Local copies of official company marks, retrieved August 31, 2026. Used only to 
 | Modal | [Website SVG icon](https://modal.com/assets/favicon.svg) |
 | Baseten | [Website icon](https://www.baseten.co/icon.png) |
 | Etched | [Apple touch icon](https://www.etched.com/apple-icon-276.png) |
+| Apple | [Official Apple touch icon](https://www.apple.com/apple-touch-icon.png), retrieved October 6, 2026 |
 
 The file mapping is in `content/jobs/logos.json`. Images are served from this website, not requested from company websites or a third-party logo service when someone opens the board. Each mark sits on a white tile in both themes; the Bedrock SVG also includes its own official light/dark styling. Company names appear beside the decorative images for accessibility.
