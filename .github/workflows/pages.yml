@@ -53,6 +53,7 @@ jobs:
           cp CNAME dist/CNAME
           if [ -d assets ]; then cp -R assets dist/assets; fi
           if [ -f resume.pdf ]; then cp resume.pdf dist/resume.pdf; fi
+          if [ -d static ]; then cp -R static/. dist/; fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
